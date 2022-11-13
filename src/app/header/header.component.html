@@ -2,20 +2,13 @@
   <header
     class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
   >
-    <a
-      href="/"
-      class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none"
-    >
-      <svg
-        class="bi me-2"
-        width="40"
-        height="32"
-        role="img"
-        aria-label="Bootstrap"
-      >
-        <use xlink:href="#bootstrap"></use>
-      </svg>
-    </a>
+    <img
+      class="m-2"
+      src="https://s.yimg.com/rz/p/yahoo_homepage_en-US_s_f_p_bestfit_homepage.png"
+      alt=""
+      width="150"
+      height="50"
+    />
 
     <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
       <li>
@@ -52,7 +45,7 @@
         type="button"
         [routerLink]="['/login']"
         routerLinkActive="router-link-active"
-        class="btn btn-outline-primary me-2"
+        class="btn btn-warning btn-sm me-2"
       >
         Login
       </button>
@@ -60,7 +53,7 @@
         type="button"
         [routerLink]="['/register']"
         routerLinkActive="router-link-active"
-        class="btn btn-primary"
+        class="btn btn-warning btn-sm"
       >
         Sign-up
       </button>
